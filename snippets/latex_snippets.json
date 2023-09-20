@@ -13,5 +13,12 @@
     "prefix": ["ddx"],
     "body": ["\\frac{\\mathrm{d/${1:V}}}{\\mathrm{d${2:x}}} $0"],
     "description": "Derivative of a function."
+  },
+  {
+    "Left Right parenthesis": {
+      "prefix": ["leftright"],
+      "body": ["\\left( $0 \\right)"],
+      "description": "Adds a parenthesis that folds the equation in display style"
+    }
   }
 }
