@@ -1,5 +1,5 @@
 {
-  "limit": {
+  "Limit": {
     "prefix": {"lim", "\\lim"},
     "body": "\\lim_{$1}^{$2}$3",
     "description": "Limit of a function"

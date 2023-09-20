@@ -1,9 +1,13 @@
 {
   "name": "latex-snippets",
+  "engines": {
+    "vscode": "^1.11.0"
+  },
   "contributes": {
     "snippets": {
       "language": [
-        "tex"
+        "tex",
+        "plaintex"
       ],
       "path": "./snippets/latex_snippets.json" 
     },
