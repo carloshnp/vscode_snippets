@@ -4,11 +4,6 @@
     "body": ["\\lim_{$1} $2"],
     "description": "Limit of a function."
   },
-  "Fraction": {
-    "prefix": ["//"],
-    "body": ["\\frac{$1}{$2}$0"],
-    "description": "Creates a fraction quickly."
-  },
   "Partial derivative": {
     "prefix": ["part"],
     "body": ["\\frac{\\partial ${1:V}}{\\partial ${2:x}} $0"],
