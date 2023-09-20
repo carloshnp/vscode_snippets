@@ -3,5 +3,20 @@
     "prefix": ["lim", "\\lim"],
     "body": ["\\lim_{$1} $2"],
     "description": "Limit of a function."
+  },
+  "Fraction": {
+    "prefix": ["//"],
+    "body": ["\\frac{$1}{$2}$0"],
+    "description": "Creates a fraction quickly."
+  },
+  "Partial derivative": {
+    "prefix": ["part"],
+    "body": ["\\frac{\\partial ${1:V}}{\\partial ${2:x}} $0"],
+    "description": "Partial derivative of a function."
+  },
+  "Derivative": {
+    "prefix": ["ddx"],
+    "body": ["\\frac{\\mathrm{d/${1:V}}}{\\mathrm{d${2:x}}} $0"],
+    "description": "Derivative of a function."
   }
 }
