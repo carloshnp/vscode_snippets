@@ -3,8 +3,7 @@
   "contributes": {
     "snippets": {
       "language": [
-        "tex",
-        "plaintex"
+        "tex"
       ],
       "path": "./snippets/latex_snippets.json"
     }
