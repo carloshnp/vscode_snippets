@@ -16,9 +16,9 @@
   },
   {
     "Left Right parenthesis": {
-      "prefix": ["lr"],
+      "prefix": ["lrp"],
       "body": ["\\left\( $0 \\right\)"],
-      "description": "Adds a parenthesis that folds the equation in display style"
+      "description": "Adds a parenthesis that folds the equation in display style."
     }
   }
 }
