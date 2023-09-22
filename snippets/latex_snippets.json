@@ -18,5 +18,10 @@
     "prefix": ["lr"],
     "body": ["\\left( $0 \\right)"],
     "description": "Adds a parenthesis that folds the equation in display style."
+  },
+  "Simple paragraph": {
+    "prefix": ["par"],
+    "body": ["\paragraph{$0}"],
+    "description": "Simple paragraph"
   }
 }
