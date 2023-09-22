@@ -21,7 +21,7 @@
   },
   "Simple paragraph": {
     "prefix": ["par"],
-    "body": ["\paragraph{$0}"],
+    "body": ["\\paragraph{$0}"],
     "description": "Simple paragraph"
   }
 }
