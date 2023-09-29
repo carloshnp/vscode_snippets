@@ -25,7 +25,7 @@
     "description": "Simple paragraph"
   },
   "Square root": {
-    "prefix": ["sqrt", "\sqrt"],
+    "prefix": ["sqrt", "\\sqrt"],
     "body": ["\\sqrt{$0}$1"],
     "description": "Square root of an expression"
   }
